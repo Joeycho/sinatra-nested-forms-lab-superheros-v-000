@@ -17,7 +17,7 @@ class App < Sinatra::Base
       end
       @heros = Hero.all
 
-      erb :'pirates/show'
+      erb :super_hero
     end
     
 
